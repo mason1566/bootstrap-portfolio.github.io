@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mason Johnson - Online Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0" />
+    <link href="css/aboutme.css" rel="stylesheet">
+</head>
+<body class="">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-sm">
+        <div class="container-fluid mx-md-5">
+            <a class="navbar-brand" href="#">Mason Johnson</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link" >Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="container-fluid bg-dark text-light pt-5 text-center shadow">
+        <div class="row align-items-center justify-content-center mt-5">
+            <div class="col-sm-6 col-xl-4 px-5 px-sm-3">
+                <img src="../images/img-mason-soccer.jpeg" class="img-fluid img-thumbnail" alt="">
+            </div>
+            <div class="col-sm-6 col-xl-4 align-self-xl-start pt-4 pt-md-0 px-5 px-sm-3">
+                <h1 class="pt-xl-5">Mason Johnson</h1>
+                <p class="lead pt-2">This is some stuff about me! including your personal interests, what you like to do, anything about you that you would like to share that is not part of a traditional resume. An image or two here would be a nice touch.</p>
+            </div>
+
+            <!-- Clickable Icons -->
+            <div class="icons d-none d-sm-flex align-items-center flex-row justify-content-evenly p-5">
+                <a href="#about-soccer" class="btn btn-dark material-symbols-outlined">sports_and_outdoors</a>
+                <a href="#about-learning" class="btn btn-dark material-symbols-outlined">history_edu</a>
+                <!-- <a href="#about-art" class="btn btn-dark material-symbols-outlined">draw</a> -->
+                <!-- <a href="#about-computers" class="btn btn-dark material-symbols-outlined">laptop_chromebook</a> -->
+                <a href="#about-me" class="btn btn-dark material-symbols-outlined">accessibility_new</a>
+                <a href="#about-family" class="btn btn-dark material-symbols-outlined">diversity_4</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Soccer Section -->
+    <article class="py-5 container" id="about-soccer">
+        <!-- header -->
+        <div class="row align-items-end justify-content-center text-center pt-2">
+            <hr class="d-none d-md-block col border border-2 border-dark rounded">
+            <h1 class="col col-md-3 col-lg-2 fw-bold">Soccer</h1>
+            <hr class="d-none d-md-block col border border-2 border-dark rounded">
+        </div>
+
+        <!-- Content -->
+        <div class="d-flex flex-column mt-4 text-center">
+            <p class="fs-2">Soccer has been my sport of choice from a very young age.</p>
+
+            <p>I currently play for the <strong>JDF All-Flows</strong> in VISL Division 3.</p>
+            <p class="">Let's take a look at the current standings (as of December 5th):</p>
+            
+            <!-- Soccer standings table -->
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Position</th>
+                            <th scope="col">Team</th>
+                            <th scope="col">GP</th>
+                            <th scope="col">W</th>
+                            <th scope="col">D</th>
+                            <th scope="col">L</th>
+                            <th scope="col">GF</th>
+                            <th scope="col">GA</th>
+                            <th scope="col">PTS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>SFFC GBE</td>
+                            <td>13</td>
+                            <td>10</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>45</td>
+                            <td>16</td>
+                            <td>31</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th scope="row">2</th>
+                            <td>JDF All-Flows</td>
+                            <td>12</td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>33</td>
+                            <td>14</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Castaways FC</td>
+                            <td>13</td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>40</td>
+                            <td>18</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Vic West FC</td>
+                            <td>13</td>
+                            <td>8</td>
+                            <td>1</td>
+                            <td>4</td>
+                            <td>39</td>
+                            <td>19</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Vantreights FC</td>
+                            <td>12</td>
+                            <td>7</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>31</td>
+                            <td>19</td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Bays United FC</td>
+                            <td>12</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>6</td>
+                            <td>11</td>
+                            <td>16</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>Cook Street Utd</td>
+                            <td>13</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>27</td>
+                            <td>20</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Gorge FC</td>
+                            <td>13</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>8</td>
+                            <td>24</td>
+                            <td>24</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>JDF Hellas FC</td>
+                            <td>13</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td>46</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>Prospect Lake Lakers</td>
+                            <td>12</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>12</td>
+                            <td>20</td>
+                            <td>88</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </article> <!-- End of soccer article -->
+
+
+    <!-- Learning section -->
+    <article class="py-5 container" id="about-learning">
+        <!-- header -->
+        <div class="row align-items-end justify-content-center text-center pt-2">
+            <hr class="d-none d-md-block col border border-2 border-dark rounded">
+            <h1 class="col col-md-8 col-lg-7 col-xl-6 col-xxl-5 fw-bold">Self-Learning</h1>
+            <hr class="d-none d-md-block col border border-2 border-dark rounded">
+        </div>
+
+        <!-- Learning content -->
+        <div class="d-flex flex-column mt-4">
+            <p class="fs-3 text-center">(I guess its also called <a href="https://en.wikipedia.org/wiki/Autodidacticism" class="link-primary text-decoration-none">autodidacticism.)</a></p>
+            
+            <!-- List of things I've taught myself -->
+            <p class="fw-bold fs-2 mt-3">Over the years, I've taught myself to:</p>
+            <ul class="align-items-center justify-content-center fs-5">
+                <li>Play guitar</li>
+                <li>Design things I like in Photoshop</li>
+                <li>Screenprint t-shirts</li>
+                <li>Create and record music (In programs such as <a href="https://en.wikipedia.org/wiki/FL_Studio" class="link-primary text-decoration-none">fl-studio</a> & <a href="https://en.wikipedia.org/wiki/Ableton_Live" class="link-primary text-decoration-none">ableton</a>)</li>
+                <li>Other things I can't remember right now...</li>
+            </ul>
+
+            
+            <!-- Tabs -->
+            <strong class="my-3">Take a look:</strong>
+
+            <!-- Tab navigation -->
+            <ul class="nav nav-tabs flex-wrap-reverse" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="guitar-tab" data-bs-toggle="tab" data-bs-target="#guitar-tab-pane" type="button" role="tab" aria-controls="guitar-tab-pane" aria-selected="true">Guitar</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="photoshop-tab" data-bs-toggle="tab" data-bs-target="#photoshop-tab-pane" type="button" role="tab" aria-controls="photoshop-tab-pane" aria-selected="false">Photoshop</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tshirt-tab" data-bs-toggle="tab" data-bs-target="#tshirt-tab-pane" type="button" role="tab" aria-controls="tshirt-tab-pane" aria-selected="false">T-shirts</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music-tab-pane" type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">Music</button>
+                </li>
+            </ul>
+
+            
+            <!-- Tab content -->
+            <div class="tab-content shadow" id="myTabContent">
+                <!-- Guitar Tab -->
+                <div class="tab-pane fade show active" id="guitar-tab-pane" role="tabpanel" aria-labelledby="guitar-tab" tabindex="0">
+                    <div class="row p-5">
+                        <div class="col-md my-auto">
+                            <img src="../images/img-guitar.png" alt="" class="img-fluid rounded-1">
+                        </div>
+                        <div class="col-md-7 col-lg-8 d-flex align-items-center flex-column justify-content-center">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 mt-4 mt-md-0 flex-shrink-0">When Did I Start?</h5>
+                                <p class="flex-grow-1 text-center fs-6 font-monospace p-0 m-0 mx-lg-2 mx-xl-5 link-offset-2">I started playing in 2020 when my brother gave me his 100+ year old guitar.</p>
+                            </div>
+                            <hr class="d-none d-md-block w-75 border border-1 border-dark p-0 rounded">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 flex-shrink-0">Where Did I Begin?</h5>
+                                <p class="flex-grow-1 text-center font-monospace p-0 m-0 mx-lg-2 mx-xl-5 link-body-emphasis link-offset-2">I began with an app called <a href="https://www.youtube.com/watch?v=n1kT0xWPEJI" class="link-primary">yousician</a>. It's fun, but it is not a good way to become skilled at guitar.</p>
+                            </div>
+                            <hr class="d-none d-md-block w-75 border border-1 border-dark p-0 rounded">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 flex-shrink-0">Where Should You Start?</h5>
+                                <p class="flex-grow-1 text-center font-monospace p-0 m-0 mx-lg-2 mx-xl-5">I highly recommend watching <a href="https://www.youtube.com/@justinguitar/videos" class="link-primary">Justin Guitar</a>. He's a fantastic teacher. He also has some of the best guitar courses available on his website (And they're free).</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design Tab -->
+                <div class="tab-pane fade" id="photoshop-tab-pane" role="tabpanel" aria-labelledby="photoshop-tab" tabindex="0">
+                    <div class="row p-5">
+                        
+                        <div class="col-md-7 col-lg-8 d-flex align-items-center flex-column justify-content-center">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 flex-shrink-0">When Did I Start?</h5>
+                                <p class="flex-grow-1 text-center fs-6 font-monospace p-0 m-0 mx-lg-2 mx-xl-5 link-offset-2">I started using photoshop right when I got my first laptop at 11.</p>
+                            </div>
+                            <hr class="d-none d-md-block w-75 border border-1 border-dark p-0 rounded">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 flex-shrink-0">Where Did I Begin?</h5>
+                                <p class="flex-grow-1 text-center font-monospace p-0 m-0 mx-lg-2 mx-xl-5 link-body-emphasis link-offset-2">I began by looking up simple tutorials & making funny photoshops of me & my family. Using it for 10 years now, it's an application that I feel very confident in.</p>
+                            </div>
+                            <hr class="d-none d-md-block w-75 border border-1 border-dark p-0 rounded">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 flex-shrink-0">Where Should You Start?</h5>
+                                <p class="flex-grow-1 text-center font-monospace p-0 m-0 mx-lg-2 mx-xl-5">Theres so many ways to start designing. You don't need to use photoshop and could just do it on paper/any medium you'd like. If you would like to use photoshop, I recommend starting just like I did. A good youtube resource for photoshop tips & tutorials is <a href="https://www.youtube.com/@PiXimperfect/videos">PiXimperfect</a>.</p>
+                            </div>
+                        </div>
+
+                        <!-- Carousel -->
+                        <div class="col-md my-auto mt-4 mt-md-0">
+                            <div id="design-carousel" class="carousel slide">
+
+                                <!-- indicators -->
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#design-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#design-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#design-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+
+                                <!-- Carousel -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../images/design-poster.png" alt="" class="img-fluid rounded-1 object-fit-scale">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/design-albumcover.jpg" alt="" class="img-fluid rounded-1">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="text-dark fw-bold">First cover design I was really proud of.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/design-radiation.jpg" alt="" class="img-fluid rounded-1">
+                                    </div>
+                                    
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#design-carousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#design-carousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                
+                <!-- Tshirts tab -->
+                <div class="tab-pane fade" id="tshirt-tab-pane" role="tabpanel" aria-labelledby="tshirt-tab" tabindex="0">
+                    <div class="row p-5">
+                        <div class="col-md my-auto">
+                            <img src="../images/tshirt-indistinct.jpg" alt="" class="img-fluid rounded-1">
+                        </div>
+
+                        <div class="col-md-7 col-lg-8 d-flex align-items-center flex-column justify-content-center">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 flex-shrink-0 mt-4 mt-md-0">When Did I Start?</h5>
+                                <p class="flex-grow-1 text-center fs-6 font-monospace p-0 m-0 mx-lg-2 mx-xl-5 link-offset-2">My brother and I started printing shirts last year (2020).</p>
+                            </div>
+                            <hr class="d-none d-md-block w-75 border border-1 border-dark p-0 rounded">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 flex-shrink-0">Where Did I Begin?</h5>
+                                <p class="flex-grow-1 text-center font-monospace p-0 m-0 mx-lg-2 mx-xl-5 link-body-emphasis link-offset-2">I've always loved fashion and art, and I randomly asked my brother if he wanted to start a t-shirt company. We started making designs for t-shirts, and after buying a shirt-press, we started printing our designs.</p>
+                            </div>
+                            <hr class="d-none d-md-block w-75 border border-1 border-dark p-0 rounded">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 flex-shrink-0">Where Should You Start?</h5>
+                                <p class="flex-grow-1 text-center font-monospace p-0 m-0 mx-lg-2 mx-xl-5">Screenprinting your own shirts can be a tricky process, but if you want to start, I'd recommend going to michaels and getting a few materials from there. Don't go big until you decide if it's worth your time & you actually enjoy it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- music tab -->
+                <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
+                    <div class="row p-5">
+
+                        <div class="col-md-7 col-lg-8 d-flex align-items-center flex-column justify-content-center">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 flex-shrink-0">When Did I Start?</h5>
+                                <p class="flex-grow-1 text-center fs-6 font-monospace p-0 m-0 mx-lg-2 mx-xl-5 link-offset-2">I started lightly messing around in FL-Studio in mid-2018. In 2020, I made the first beat/instrumental that I was actually proud of.</p>
+                            </div>
+                            <hr class="d-none d-md-block w-75 border border-1 border-dark p-0 rounded">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 flex-shrink-0">Where Did I Begin?</h5>
+                                <p class="flex-grow-1 text-center font-monospace p-0 m-0 mx-lg-2 mx-xl-5 link-body-emphasis link-offset-2">I began watching youtube tutorials for fl-studio and got to learn the DAW (Digital-Audio Workspace). I started with simple loops and began to work up from there. 2021 is the year that I actually started to like the stuff I was making. That year, a <a href="https://www.youtube.com/watch?v=6AbZoobUcWw">beat</a> I made got over 10k views.</p>
+                            </div>
+                            <hr class="d-none d-md-block w-75 border border-1 border-dark p-0 rounded">
+                            <div class="mx-5 d-flex flex-column flex-lg-row justify-content-between align-items-center w-100">
+                                <h5 class="fw-bold fs-5 p-0 m-0 flex-shrink-0">Where Should You Start?</h5>
+                                <p class="flex-grow-1 text-center font-monospace p-0 m-0 mx-lg-2 mx-xl-5">Go ahead and grab a copy of fl-studio (or ableton) and watch a few tutorials. You need to get used to the workspace or else it's gonna be a big hinderence to your music making ability (& creativity)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md my-auto mt-4 mt-md-0">
+                            <a href=""></a>
+                            <img src="../images/music-me.JPG" alt="" class="img-fluid rounded-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article> <!-- End of learning article-->
+
+    <!-- Me section -->
+    <article class="container py-5" id="about-me">
+        <!-- header -->
+        <div class="row align-items-end justify-content-center text-center pt-2">
+            <hr class="d-none d-md-block col border border-2 border-dark rounded">
+            <h1 class="col col-md-4 col-xxl-3 fw-bold">About Me</h1>
+            <hr class="d-none d-md-block col border border-2 border-dark rounded">
+        </div>
+
+        <!-- Pip-boy -->
+        <div class="row justify-content-center">
+            <div class="col-9 bg-black vh-100 fs-3 text-center mt-4 border border-dark-subtle">
+
+                <!-- Tab navigation -->
+                <ul class="mt-4 nav nav-tabs flex-wrap-reverse border-fallout justify-content-center row gx-5 px-0 mx-4" id="myTab" role="tablist">
+                    <li class="nav-item col-auto" role="presentation">
+                        <button class="fw-bold py-0 bg-black text-fallout nav-link active border-bottom-black">STAT</button>
+                    </li>
+                    <li class="nav-item col-auto" role="presentation">
+                        <button class="fw-bold nav-link py-0 text-fallout-disabled disabled">INV</button>
+                    </li>
+                    <li class="nav-item col-auto" role="presentation">
+                        <button class="fw-bold nav-link py-0 text-fallout-disabled disabled">DATA</button>
+                    </li>
+                    <li class="nav-item col-auto" role="presentation">
+                        <button class="fw-bold nav-link py-0 text-fallout-disabled disabled">MAP</button>
+                    </li>
+                    <li class="nav-item col-auto" role="presentation">
+                        <button class="fw-bold nav-link py-0 text-fallout-disabled disabled">RADIO</button>
+                    </li>
+                </ul>
+
+                <div class="d-flex">
+                    <div class="flix-grow-0 text-fallout-disabled mx-2">STATUS</div>
+                    <div class="flix-grow-0 text-fallout mx-2">SPECIAL</div>
+                    <div class="flix-grow-0 text-fallout-disabled mx-2">PERKS</div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- family section -->
+    <article class="container py-5" id="about-family">
+        <div class="row align-items-end justify-content-center text-center pt-2">
+            <hr class="d-none d-md-block col border border-2 border-dark rounded">
+            <h1 class="col col-md-4 col-xxl-3 fw-bold">My Family</h1>
+            <hr class="d-none d-md-block col border border-2 border-dark rounded">
+        </div>
+
+        <!-- Carousel -->
+        <div class="col-md my-auto mt-4 mt-md-0">
+            <div id="family-carousel" class="carousel slide">
+
+                <!-- indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#family-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#family-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#family-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <!-- Carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/family-3.JPG" alt="" class="img-fluid rounded-1 object-fit-scale">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/family-1.jpg" alt="" class="img-fluid rounded-1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="text-dark fw-bold">First cover design I was really proud of.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/family-2.JPG" alt="" class="img-fluid rounded-1 object-fit-cover w-100 ">
+                    </div>
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#family-carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#family-carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </article>
+    
+    <footer class="vh-100"></footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

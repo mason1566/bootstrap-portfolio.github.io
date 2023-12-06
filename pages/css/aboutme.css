@@ -1,0 +1,32 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+/* Google Font Icons */
+.material-symbols-outlined {
+    font-size: 70px !important; 
+}
+
+.text-fallout {
+    color: #00F53F !important;
+}
+
+.text-fallout-disabled {
+    color: #096B18 !important;
+}
+
+.border-bottom-black {
+    border-color: #00F53F !important;
+    border-bottom-color: black !important;
+}
+
+.border-fallout {
+    border-color: #00F53F !important;
+}
+
+.fallout-breaker {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 0;
+}
