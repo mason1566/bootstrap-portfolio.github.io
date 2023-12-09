@@ -6,13 +6,19 @@
     <title>Mason Johnson - Online Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="css/theme.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    </style>
 </head>
-<body class="">
+<body class="ct-bg-page">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-sm">
+    <nav class="navbar navbar-expand-md navbar-dark ct-bg-dark fixed-top shadow-sm">
         <div class="container-fluid mx-md-5">
-            <a class="navbar-brand" href="#">Mason Johnson</a>
+            <a class="navbar-brand ct-text-light" href="#">Mason Johnson</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
@@ -21,16 +27,16 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active" >Resume</a>
+                        <a href="#" class="nav-link ct-nav-link active" >Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./pages/aboutme.html" class="nav-link">About Me</a>
+                        <a href="./pages/aboutme.html" class="nav-link ct-nav-link">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Projects</a>
+                        <a href="./pages/projects.html" class="nav-link ct-nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="./pages/contact.html" class="nav-link ct-nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -38,7 +44,7 @@
     </nav>
 
     <!-- Hero -->
-    <section class="container-fluid bg-dark text-light py-5 text-center">
+    <section class="container-fluid ct-bg-dark ct-text-light py-5 text-center">
         <div class="d-flex justify-content-center align-items-center py-5">
             <h1 class="py-5 my-5">My Resume</h1>
         </div>
@@ -46,7 +52,7 @@
 
 
     <!-- Resume Wiki Area -->
-    <section class="container-fluid mt-2">
+    <section class="container-fluid mt-2 ct-bg-page">
         <div class="row">
 
             <!-- Sidebar -->
@@ -105,7 +111,10 @@
             <!-- Main content -->
             <div class="col-md-9" >
 
-                <h2 class="my-4 ms-2 fw-bold">Work Experience:</h2>
+                <div class="d-flex flex-row align-items-center">
+                    <h2 class="my-4 ms-2 fw-bold">Work Experience</h2>
+                    <span class="material-symbols-outlined fs-1 ps-3">badge</span> 
+                </div>
 
                 <!-- JDF Technical Staff -->
                 <div class=" d-flex flex-column text-start ps-5">
@@ -171,7 +180,10 @@
 
 
 
-                <h2 class="my-4 ms-2 fw-bold ">Education:</h2>
+                <div class="d-flex flex-row align-items-center">
+                    <h2 class="my-4 ms-2 fw-bold">Education</h2>
+                    <span class="material-symbols-outlined fs-1 pt-1 ps-3">school</span> 
+                </div>
 
                 <!-- Camosun -->
                 <div class=" d-flex flex-column text-start ps-5">
@@ -203,13 +215,21 @@
 
 
 
-                 <h2 class="my-4 ms-2 fw-bold ">Skills & Hobbies:</h2>
+                <div class="d-flex flex-row align-items-center">
+                    <h2 class="my-4 ms-2 fw-bold">Skills & Hobbies</h2>
+                    <span class="material-symbols-outlined fs-1 pt-1 ps-3">schedule</span> 
+                </div>
 
                 <!-- Digital Art -->
                 <div class=" d-flex flex-column text-start ps-5">
                     <div class="row align-items-center">
                         <h4 class="col-9 py-3" id="skill-digart">Digital Art</h4>
                     </div>
+
+                    <ul>
+                        <li><p>Proficient in designing and photo editing in photoshop.</p></li>
+                        <li><p>Capable of making complex models and scenes in 3d applications such as blender.</p></li>
+                    </ul>
                 </div>
 
                 <!-- Film & Photography -->
@@ -217,13 +237,23 @@
                     <div class="row align-items-center">
                         <h4 class="col-9 py-3" id="skill-film">Film & Photography</h4>
                     </div>
+
+                    <ul>
+                        <li><p>Have access to professional grade camera (BMPCC6k).</p></li>
+                        <li><p>Video editing skills in DaVinci Resolve.</p></li>
+                    </ul>
                 </div>
                 
                 <!-- Fashion -->
                 <div class=" d-flex flex-column text-start ps-5">
                     <div class="row align-items-center">
-                        <h4 class="col-9 py-3" id="skill-fashion">Fashion</h4>
+                        <h4 class="col-9 py-3" id="skill-fashion">Fashion/Streetwear</h4>
                     </div>
+
+                    <ul>
+                        <li><p>Involved in streetwear scene, supporting small artists and clothing startups.</p></li>
+                        <li><p>I have a love of streetwear and am always looking for cool clothing to add to my wardrobe.</p></li>
+                    </ul>
                 </div>
 
                 <!-- Music Production -->
@@ -231,16 +261,32 @@
                     <div class="row align-items-center">
                         <h4 class="col-9 py-3" id="skill-music">Music Production & Guitar</h4>
                     </div>
+
+                    <ul>
+                        <li><p>Proficient in making music in FL-Studio and Ableton.</p></li>
+                        <li><p>Self-taught guitar player.</p></li>
+                    </ul>
                 </div>
 
-
+                <!-- resume download -->
+                <div class=" d-flex flex-row text-center justify-content-center me-5">
+                    <a href="./files/Mason Johnson Resume.pdf" class="link-primary lead fs-2 my-5 me-5 fw-bold text-decoration-none " id="cvLink">Download my cv!</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer class="container-fluid bg-dark footer">
-        <h1 class="mb-0">Hello</h1>
+    <footer class="container-fluid ct-bg-dark footer ct-text-light">
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <a href="https://www.linkedin.com/in/mason-johnson-8b04042a0/" class="text-decoration-none ct-text-light me-2">
+                <i class="fs-4 bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/mason1566" class="text-decoration-none ct-text-light ms-2">
+                <i class="fs-4 bi bi-github"></i>
+            </a>
+        </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

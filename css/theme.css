@@ -1,0 +1,71 @@
+:root {
+    --ct-bg-page: #fffcf7;
+    --ct-bg-page-dark: #b3b0ac;
+    --ct-bg-page-hover: #e6e3dd;
+
+    /* for testing purposes */
+    /* --ct-bg-page: red;
+    --ct-bg-page-dark: rgb(30, 184, 10);
+    --ct-bg-page-hover: #c79023; */
+
+    --ct-red: #ae2012;
+
+    --ct-bg-dark: #1e2125;
+    --ct-bg-dark-border: #27292c;
+    --ct-bg-dark-hover: #2f3235;
+    --ct-btn-hover: #3d4144;
+    --ct-purple: #682d9c;
+
+    /* Theme colours for fallout pip-boy section */
+    --fallout-green: #00F53F;
+    --fallout-green-disabled: #096B18;
+    --fallout-green-hover: #0bc239;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body, html {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+/* Custom theme colouring stuff */
+.ct-bg-dark {
+    background-color: var(--ct-bg-dark) !important;
+}
+
+.ct-bg-page {
+    background-color: var(--ct-bg-page) !important;
+}
+
+.ct-text-light {
+    color: var(--ct-bg-page) !important;
+}
+
+.ct-nav-link {
+    color: var(--ct-bg-page-dark) !important;
+}
+
+.ct-nav-link:focus, .ct-nav-link:hover {
+    color: var(--ct-bg-page-hover) !important;
+}
+
+.navbar-nav .ct-nav-link.active, .navbar-nav .ct-nav-link.show {
+    color: var(--ct-bg-page) !important;
+}
+
+.ct-btn {
+    color: var(--ct-bg-page) !important;
+    background-color: var(--ct-bg-dark) !important;
+    border-color: var(--ct-bg-dark) !important;
+}
+
+.ct-btn:hover {
+    background-color: var(--ct-bg-dark-hover) !important;
+}
+
+.ct-btn-hover-light:hover {
+    background-color: var(--ct-btn-hover) !important;
+}
+
+/* End of custom theme */
+

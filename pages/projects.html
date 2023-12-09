@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mason Johnson - Online Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="../css/theme.css" rel="stylesheet">
+    <link href="./css/projects.css" rel="stylesheet">
+</head>
+<body class="ct-bg-page">
+
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark ct-bg-dark fixed-top shadow-sm">
+        <div class="container-fluid mx-md-5">
+            <a class="navbar-brand ct-text-light" href="#">Mason Johnson</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link ct-nav-link" >Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./aboutme.html" class="nav-link ct-nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ct-nav-link active">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link ct-nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- Hero -->
+    <section class="container-fluid ct-bg-dark ct-text-light py-5 text-center shadow">
+        <div class="d-flex justify-content-center align-items-center py-5">
+            <h1 class="py-5 my-5">Projects</h1>
+        </div>
+    </section>
+
+
+
+
+    <!-- cards/buttons -->
+    <article class="container-fluid my-5">
+        <!-- Projects Cards Section -->
+        <div class="row flex-row g-5 mx-3 nav nav-pills">
+
+            <!-- Indistinct Future card-->
+            <div class="col-12 col-md-6 col-xl-3">
+                <a class="card text-decoration-none" href="#project-indistinct" data-bs-toggle="tab" data-bs-target="#project-indistinct">
+                    <img src="../images/pexels-shirts.jpg" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column ct-bg-page">
+                        <h5 class="card-title">Indistinct Future</h5>
+                        <p class="card-text">Created by my brother and I. We work hard to create dope designs and put them on t-shirts.</p>
+                        <span class="badge rounded-pill text-bg-primary ms-auto me-2">Ongoing</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Guitar helper card -->
+            <div class="col-12 col-md-6 col-xl-3">
+                <a class="card text-decoration-none" href="#project-guitar" data-bs-toggle="tab" data-bs-target="#project-guitar">
+                    <img src="../images/guitarHelper.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column ct-bg-page">
+                        <h5 class="card-title">Guitar Helper</h5>
+                        <p class="card-text">Written using Java, I wanted to create an app that would train my mastery of the guitar fretboard.</p>
+                        <span class="badge rounded-pill text-bg-success ms-auto me-2">Finished</span>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Beat tape card -->
+            <div class="col-12 col-md-6 col-xl-3">
+                <a class="card text-decoration-none" href="#project-tape" data-bs-toggle="tab" data-bs-target="#project-tape">
+                    <img src="../images/pexels-cassette-pile.jpg" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column ct-bg-page">
+                        <h5 class="card-title">Beat Tape</h5>
+                        <p class="card-text">I've been wanting to create a beat tape for a long time. It will contain around 7 beats/instrumentals.</p>
+                        <span class="badge rounded-pill text-bg-warning ms-auto me-2">Planned</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- knowledge base card -->
+            <div class="col-12 col-md-6 col-xl-3">
+                <a class="card text-decoration-none" href="#project-kb" data-bs-toggle="tab" data-bs-target="#project-kb">
+                    <img src="../images/obsidian.jpg" class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column ct-bg-page">
+                        <h5 class="card-title">Knowledge Base (I call it artifical memory)</h5>
+                        <p class="card-text">I use a note-taking app called Obsidian (+ a bunch of plugins) to organize & link my notes.</p>
+                        <span class="badge rounded-pill text-bg-primary ms-auto me-2">Ongoing</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </article>
+
+
+
+
+    <!-- projects -->
+    <section class="container-fluid tab-content px-0">
+        
+        <!-- Indistinct future -->
+        <div class="tab-pane" id="project-indistinct">
+
+            <!-- Project header -->
+            <div class="d-flex flex-column shadow py-3">
+                <h3 class="ms-2 ms-md-5 ps-md-5">Project Name: <kbd class="fs-4 ms-2 ms-md-4 font-monospace">Indistinct Future</kbd></h3>
+
+                <h3 class="ms-2 ms-md-5 ps-md-5">Status: <kbd class="fs-4 ms-2 ms-md-4 font-monospace">Ongoing</kbd></h3>
+            </div>
+            
+            <!-- content -->
+            <div class="my-5 container clearfix">
+                <img src="../images/indistinct-dog.jpeg" class="img-fluid col-md-5 float-md-end mb-3 ms-md-3 rounded" alt="Alt text.">
+                <div class="col ps-3 pb-3 fs-5">
+                    <p class="ps-3 pb-3 fs-5">In 2021, my brother and I got the idea to start a t-shirt company. We have both always loved streetwear and love the idea of making our own shirts.</p>
+                    <p class="ps-3 pb-3 fs-5">Our designs come straight from our heads. What we put on our shirts is what we think is cool. </p>
+                    <p class="ps-3 pb-3 fs-5">Its been a lot of hard work to get this project going and we are super excited to continue and keep making sick shirts!</p>
+                    <p class="ps-3 pb-3 fs-5">We want our clothing to be quality and affordable. We feel there's no place for overpriced t-shirts (It's just fabric after all).</p>
+                </div>
+                <h2 class="">Thoughts:</h2>
+                <p class="ps-3 pb-3 fs-5">We've both learned a load from this project. Before this, neither of us had gone near screenprinting, but after a lot of trial and error, were at a place now where our screenprinting skills are getting better and better.</p>
+                <p class="ps-3 pb-3 fs-5">We can't wait to release our first public drop. It will be available on our website (indistinctfuture.com - not built yet)</p>
+            </div>
+        </div>
+
+        <!-- Guitar Interval Helper -->
+        <div class="tab-pane" id="project-guitar">
+
+            <!-- Project header -->
+            <div class="d-flex flex-column shadow py-3">
+                <h3 class="ms-2 ms-md-5 ps-md-5">Project Name: <kbd class="fs-4 ms-2 ms-md-4 font-monospace">Guitar Helper</kbd></h3>
+
+                <h3 class="ms-2 ms-md-5 ps-md-5">Status: <kbd class="fs-4 ms-2 ms-md-4 font-monospace">Finished</kbd></h3>
+            </div>
+
+            <!-- content -->
+            <div class="my-5 container clearfix">
+                <img src="../images/guitarvsguitar.png" class="img-fluid col-md-5 float-md-start mb-3 me-md-3 rounded" alt="Alt text.">
+                <div class="col ps-3 pb-3 fs-5">
+                    <p class="ps-3 pb-3 fs-5">Guitar Helper is a simple command-line guitar program that helps the user learn and practice their recognition of intervals between notes.</p>
+                    <p class="ps-3 pb-3 fs-5">The user is presented with an ascii representation of the fretboard that has a single fret marked 'I', and another marked 'x'.</p>
+                    <p class="ps-3 pb-3 fs-5">The user is then tasked to try to identify the given interval and answer in interval form: 1 - b2 - 2 - b3 - 3 - 4 - b5 - 5 - b6 - 6 - b7 - 7.</p>
+                    <p class="ps-3 pb-3 fs-5">If you don't know anything about intervals, I recommend going <a href="https://www.thejazzpianosite.com/jazz-piano-lessons/the-basics/chords-intervals/" class="text-decoration-none">here.</a></p>
+                </div>
+                <h2 class="">Outcome:</h2>
+                <p class="ps-3 pb-3 fs-5">I feel like a learned a lot from this tiny project. It was my first time using classes (OOP) and it really helped me to solidify the concept. I'm really pleased with how it works and have many cool features planned for the future.</p>
+            </div>
+
+        </div>
+
+
+        <!-- beat tape -->
+        <div class="tab-pane" id="project-tape">
+
+            <!-- Project header -->
+            <div class="d-flex flex-column shadow py-3">
+                <h3 class="ms-2 ms-md-5 ps-md-5">Project Name: <kbd class="fs-4 ms-2 ms-md-4 font-monospace">Beat Tape</kbd></h3>
+
+                <h3 class="ms-2 ms-md-5 ps-md-5">Status: <kbd class="fs-4 ms-2 ms-md-4 font-monospace">Planned</kbd></h3>
+            </div>
+            
+            <!-- content -->
+            <div class="my-5 container clearfix">
+                <img src="../images/pexels-cassette.jpg" class="img-fluid col-md-5 float-md-end mb-3 ms-md-3 rounded" alt="Alt text.">
+                <div class="col pe-3 pb-3 fs-5">
+                    <p class="ps-3 pb-3 fs-5">A beat tape inspired by producers/artists such as Madlib, the Alchemist, and many more.</p>
+                    <p class="ps-3 pb-3 fs-5">I've been building up my music and producing skills for the past few years, and am now at a level where I feel musically confident. It's taken a lot of hard work but it's been worth it every second.</p>
+                    <p class="ps-3 pb-3 fs-5">I want the sound to be 90's hip hop feeling (with many outside elements as well). Heres an <a href="https://www.youtube.com/watch?v=VZZcvUolZ20" class="text-decoration-none">example</a> of the sound I want (This beat is going to be on the tape).</p>
+                    <h2 class="">Thoughts:</h2>
+                    <p class="ps-3 pb-3 fs-5">I am really excited to get this project off the ground. I love so many different genres of music and have always aspired to create good music.</p>    
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Knowledge base -->
+        <div class="tab-pane" id="project-kb">
+
+            <!-- Project header -->
+            <div class="d-flex flex-column shadow py-3">
+                <h3 class="ms-2 ms-md-5 ps-md-5">Project Name: <kbd class="fs-5 fs-md-4 ms-2 ms-md-4 font-monospace">Knowledge Base</kbd></h3>
+
+                <h3 class="ms-2 ms-md-5 ps-md-5">Status: <kbd class="fs-5 fs-md-4 ms-2 ms-md-4 font-monospace">Ongoing</kbd></h3>
+            </div>
+
+            <!-- content -->
+            <div class="my-5 container clearfix">
+                <img src="../images/obsidian-app.png" class="img-fluid col-md-5 float-md-start mb-3 me-md-3 rounded" alt="Alt text.">
+                <div class="col pe-3 pb-3 fs-5">
+                    <p class="ps-3 pb-3 fs-5">I first got the inspiration to do this after watching a video about a guy called Niklas Luhmann. He wrote over 70 books in his life and published over 400 scholarly articles; and he attributed it all to his note-taking system.</p>
+                    <p class="ps-3 pb-3 fs-5">He prioritized making links and forming connections between notes. If you would like to read more about this method of note-taking, check out <a href="https://zettelkasten.de/introduction/" class="text-decoration-none">zettelkaste.de</a>.</p>
+                    <p class="ps-3 pb-3 fs-5">The app I use, called Obsidian, has a fantastic way of linking notes together. It allows you to seamlessly add wikipedia style links anywhere by simply typing: [[Put the name of your note inside these brackets]].</p>
+                </div>
+                <h2 class="">Experience:</h2>
+                <p class="ps-3 pb-3 fs-5">It has been a very hard process to get familiar with. I discovered it a few weeks before our semester started, going as far as reading a <a href="https://books.google.ca/books/about/How_to_Take_Smart_Notes.html?id=QmBjEAAAQBAJ&source=kp_book_description&redir_esc=y" class="text-decoration-none">book</a> about the specific note-taking style.</p>
+                <p class="ps-3 pb-3 fs-5">I still have a lot of learning to do, but hopefully I am setting myself up for the future having a system like this in place.</p>
+                <p class="ps-3 pb-3 fs-5">The coolest thing is that my notes sync up across all my devices (It's $7.99 a month, but there are ways to do it freely if needed).  </p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="container-fluid bg-dark footer ct-text-light">
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <a href="https://www.linkedin.com/in/mason-johnson-8b04042a0/" class="text-decoration-none ct-text-light me-2">
+                <i class="fs-4 bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/mason1566" class="text-decoration-none ct-text-light ms-2">
+                <i class="fs-4 bi bi-github"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

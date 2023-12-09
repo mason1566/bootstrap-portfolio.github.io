@@ -9,24 +9,55 @@ body, html {
 }
 
 .text-fallout {
-    color: #00F53F !important;
+    color: var(--fallout-green) !important;
 }
 
 .text-fallout-disabled {
-    color: #096B18 !important;
+    color: var(--fallout-green-disabled) !important;
 }
 
 .border-bottom-black {
-    border-color: #00F53F !important;
+    border-color: var(--fallout-green) !important;
     border-bottom-color: black !important;
 }
 
 .border-fallout {
-    border-color: #00F53F !important;
+    border-color: var(--fallout-green) !important;
 }
 
 .fallout-breaker {
     margin-top: 0;
     margin-bottom: 0;
     height: 0;
+}
+
+.bg-fallout {
+    background-color: var(--fallout-green) !important;
+}
+
+#myTab .nav-link.active {
+    background-color: var(--ct-bg-page) !important;
+}
+
+#falloutSpecialTabs a {
+    background-color: black !important;
+    color: var(--fallout-green) !important;
+    border: none !important;
+    border-radius: 1px !important;
+    /* margin-bottom: 2px !important; */
+}
+
+#falloutSpecialTabs a.active {
+    background-color: var(--fallout-green) !important;
+    color: black !important;
+}
+
+#falloutSpecialTabs a:hover {
+    background-color: var(--fallout-green-hover) !important;
+    opacity: 0.7 !important;
+    color: black !important;
+}
+
+.img-fallout {
+    max-height: 200px !important;
 }

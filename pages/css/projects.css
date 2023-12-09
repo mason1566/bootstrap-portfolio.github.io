@@ -1,0 +1,48 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+}
+
+.tab-pane.active {
+    animation: slide-down 1s ease-out;
+}
+
+@keyframes slide-down {
+    0% { opacity: 0.9; transform: translateY(20%); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom theme colouring stuff */
+.ct-bg-dark {
+    background-color: var(--ct-bg-dark) !important;
+}
+
+.ct-bg-page {
+    background-color: var(--ct-bg-page) !important;
+}
+
+.ct-text-light {
+    color: var(--ct-bg-page) !important;
+}
+
+.ct-nav-link {
+    color: var(--ct-bg-page-dark) !important;
+}
+
+.ct-nav-link:focus, .ct-nav-link:hover {
+    color: var(--ct-bg-page-hover) !important;
+}
+
+.navbar-nav .ct-nav-link.active, .navbar-nav .ct-nav-link.show {
+    color: var(--ct-bg-page) !important;
+}
+/* End of custom theme */
